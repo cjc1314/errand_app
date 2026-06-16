@@ -1,0 +1,168 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "\u6821\u56ed\u8dd1\u817f",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationBarTitleText": "\u8ba2\u5355",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "\u6211\u7684",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "\u767b\u5f55",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "\u6ce8\u518c",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/preOrder/preOrder",
+			"style": {
+				"navigationBarTitleText": "\u4e0b\u5355",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "\u6211\u7684\u5730\u5740",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "\u8ba2\u5355\u8be6\u60c5",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/introduce/introduce",
+			"style": {
+				"navigationBarTitleText": "\u5e73\u53f0\u4ecb\u7ecd",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/agreement/agreement",
+			"style": {
+				"navigationBarTitleText": "\u7528\u6237\u534f\u8bae",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "\u4e2a\u4eba\u8d44\u6599",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/certification/certification",
+			"style": {
+				"navigationBarTitleText": "\u9a91\u624b\u8ba4\u8bc1",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/acceptOrders/acceptOrders",
+			"style": {
+				"navigationBarTitleText": "\u9a91\u624b\u8ba2\u5355",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/records/records",
+			"style": {
+				"navigationBarTitleText": "\u91d1\u8c46\u660e\u7ec6",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "\u6211\u7684\u91d1\u8c46",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/charge/charge",
+			"style": {
+				"navigationBarTitleText": "\u9886\u53d6\u91d1\u8c46",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/comment/comment",
+			"style": {
+				"navigationBarTitleText": "\u8bc4\u4ef7",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/admin/admin",
+			"style": {
+				"navigationBarTitleText": "\u7ba1\u7406\u540e\u53f0",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/myComment/myComment",
+			"style": {
+				"navigationBarTitleText": "\u8bc4\u4ef7\u4e2d\u5fc3",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "\u6821\u56ed\u8dd1\u817f",
+		"navigationBarBackgroundColor": "#006eff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"selectedColor": "#006eff",
+		"color": "#666",
+		"list": [
+			{
+				"iconPath": "/static/icons/home.png",
+				"selectedIconPath": "static/icons/home-active.png",
+				"text": "\u9996\u9875",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"iconPath": "/static/icons/orders.png",
+				"selectedIconPath": "static/icons/orders-active.png",
+				"text": "\u8ba2\u5355",
+				"pagePath": "pages/orders/orders"
+			},
+			{
+				"iconPath": "/static/icons/me.png",
+				"selectedIconPath": "static/icons/me-active.png",
+				"text": "\u6211\u7684",
+				"pagePath": "pages/me/me"
+			}
+		]
+	}
+}

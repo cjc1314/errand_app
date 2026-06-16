@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#111"/>
+    </marker>
+    <style>
+      .bg { fill: #fff; }
+      .rect { fill: #fff; stroke: #111; stroke-width: 2.4; }
+      .oval { fill: #fff; stroke: #111; stroke-width: 2.4; }
+      .line { fill: none; stroke: #111; stroke-width: 2.2; marker-end: url(#arrow); }
+      .plain { fill: none; stroke: #111; stroke-width: 2.2; }
+      .title { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; font-size: 42px; font-weight: 700; fill: #111; }
+      .main { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; font-size: 34px; font-weight: 700; fill: #111; }
+      .text { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; font-size: 27px; fill: #111; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; font-size: 23px; fill: #111; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1500" height="1000"/>
+  <text class="title" x="750" y="58" text-anchor="middle">校园跑腿小程序模块联系图</text>
+
+  <!-- user side -->
+  <ellipse class="oval" cx="150" cy="120" rx="105" ry="43"/>
+  <text class="text" x="150" y="130" text-anchor="middle">用户端</text>
+
+  <ellipse class="oval" cx="150" cy="215" rx="120" ry="38"/>
+  <text class="small" x="150" y="224" text-anchor="middle">用户注册 / 登录</text>
+
+  <ellipse class="oval" cx="150" cy="305" rx="120" ry="38"/>
+  <text class="small" x="150" y="314" text-anchor="middle">地址管理</text>
+
+  <ellipse class="oval" cx="150" cy="395" rx="120" ry="38"/>
+  <text class="small" x="150" y="404" text-anchor="middle">分类下单</text>
+
+  <ellipse class="oval" cx="150" cy="485" rx="120" ry="38"/>
+  <text class="small" x="150" y="494" text-anchor="middle">订单查看 / 取消</text>
+
+  <ellipse class="oval" cx="150" cy="575" rx="120" ry="38"/>
+  <text class="small" x="150" y="584" text-anchor="middle">确认收货 / 评价</text>
+
+  <path class="plain" d="M60 153 V575"/>
+  <path class="plain" d="M60 215 H30"/>
+  <path class="plain" d="M60 305 H30"/>
+  <path class="plain" d="M60 395 H30"/>
+  <path class="plain" d="M60 485 H30"/>
+  <path class="plain" d="M60 575 H30"/>
+
+  <!-- rider side -->
+  <ellipse class="oval" cx="1350" cy="120" rx="105" ry="43"/>
+  <text class="text" x="1350" y="130" text-anchor="middle">骑手端</text>
+
+  <ellipse class="oval" cx="1350" cy="225" rx="120" ry="38"/>
+  <text class="small" x="1350" y="234" text-anchor="middle">骑手注册 / 登录</text>
+
+  <ellipse class="oval" cx="1350" cy="315" rx="120" ry="38"/>
+  <text class="small" x="1350" y="324" text-anchor="middle">提交认证</text>
+
+  <ellipse class="oval" cx="1350" cy="405" rx="120" ry="38"/>
+  <text class="small" x="1350" y="414" text-anchor="middle">接单大厅</text>
+
+  <ellipse class="oval" cx="1350" cy="495" rx="120" ry="38"/>
+  <text class="small" x="1350" y="504" text-anchor="middle">订单配送</text>
+
+  <ellipse class="oval" cx="1350" cy="585" rx="120" ry="38"/>
+  <text class="small" x="1350" y="594" text-anchor="middle">确认送达</text>
+
+  <path class="plain" d="M1440 153 V585"/>
+  <path class="plain" d="M1440 225 H1470"/>
+  <path class="plain" d="M1440 315 H1470"/>
+  <path class="plain" d="M1440 405 H1470"/>
+  <path class="plain" d="M1440 495 H1470"/>
+  <path class="plain" d="M1440 585 H1470"/>
+
+  <!-- center system -->
+  <rect class="rect" x="565" y="260" width="370" height="215"/>
+  <text class="main" x="750" y="345" text-anchor="middle">核心业务系统</text>
+  <text class="small" x="750" y="390" text-anchor="middle">订单流转、认证审核、数据处理</text>
+
+  <ellipse class="oval" cx="430" cy="160" rx="130" ry="42"/>
+  <text class="small" x="430" y="169" text-anchor="middle">首页展示服务</text>
+
+  <ellipse class="oval" cx="750" cy="160" rx="130" ry="42"/>
+  <text class="small" x="750" y="169" text-anchor="middle">金豆服务</text>
+
+  <ellipse class="oval" cx="1070" cy="160" rx="130" ry="42"/>
+  <text class="small" x="1070" y="169" text-anchor="middle">评价服务</text>
+
+  <ellipse class="oval" cx="430" cy="545" rx="130" ry="42"/>
+  <text class="small" x="430" y="554" text-anchor="middle">云函数 api</text>
+
+  <ellipse class="oval" cx="1070" cy="545" rx="130" ry="42"/>
+  <text class="small" x="1070" y="554" text-anchor="middle">云数据库</text>
+
+  <ellipse class="oval" cx="750" cy="545" rx="130" ry="42"/>
+  <text class="small" x="750" y="554" text-anchor="middle">定时任务</text>
+
+  <!-- center links -->
+  <path class="line" d="M270 395 C380 395 455 365 565 365"/>
+  <text class="small" x="385" y="365" text-anchor="middle">提交订单</text>
+
+  <path class="line" d="M1230 405 C1110 405 1030 372 935 372"/>
+  <text class="small" x="1105" y="370" text-anchor="middle">接单处理</text>
+
+  <path class="line" d="M750 202 V260"/>
+  <text class="small" x="795" y="238">金豆变动</text>
+
+  <path class="line" d="M430 202 C470 230 520 260 565 300"/>
+  <text class="small" x="475" y="245">公告轮播</text>
+
+  <path class="line" d="M1070 202 C1030 235 985 280 935 320"/>
+  <text class="small" x="1035" y="250">评价反馈</text>
+
+  <path class="line" d="M565 430 C515 465 475 500 430 545"/>
+  <text class="small" x="470" y="500">接口调用</text>
+
+  <path class="line" d="M935 430 C985 465 1025 500 1070 545"/>
+  <text class="small" x="1030" y="500">数据读写</text>
+
+  <path class="line" d="M750 503 V475"/>
+
+  <!-- admin backend -->
+  <rect class="rect" x="565" y="675" width="370" height="75"/>
+  <text class="main" x="750" y="725" text-anchor="middle">管理员后台</text>
+
+  <ellipse class="oval" cx="260" cy="850" rx="115" ry="38"/>
+  <text class="small" x="260" y="859" text-anchor="middle">用户管理</text>
+
+  <ellipse class="oval" cx="455" cy="850" rx="115" ry="38"/>
+  <text class="small" x="455" y="859" text-anchor="middle">订单管理</text>
+
+  <ellipse class="oval" cx="650" cy="850" rx="115" ry="38"/>
+  <text class="small" x="650" y="859" text-anchor="middle">认证审核</text>
+
+  <ellipse class="oval" cx="845" cy="850" rx="115" ry="38"/>
+  <text class="small" x="845" y="859" text-anchor="middle">公告轮播</text>
+
+  <ellipse class="oval" cx="1040" cy="850" rx="115" ry="38"/>
+  <text class="small" x="1040" y="859" text-anchor="middle">评价管理</text>
+
+  <ellipse class="oval" cx="1235" cy="850" rx="115" ry="38"/>
+  <text class="small" x="1235" y="859" text-anchor="middle">金豆明细</text>
+
+  <path class="line" d="M750 475 V675"/>
+  <text class="small" x="775" y="640">数据管理与审核</text>
+
+  <path class="plain" d="M260 812 V785 H1235 V812"/>
+  <path class="plain" d="M455 812 V785"/>
+  <path class="plain" d="M650 812 V785"/>
+  <path class="plain" d="M845 812 V785"/>
+  <path class="plain" d="M1040 812 V785"/>
+  <path class="plain" d="M750 750 V785"/>
+
+</svg>
